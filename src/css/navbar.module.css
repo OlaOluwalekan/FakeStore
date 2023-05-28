@@ -1,0 +1,41 @@
+.main {
+  background-color: #dd2f44;
+}
+
+.main > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.main > div a {
+  text-decoration: none;
+}
+
+.main > div > a > p {
+  color: white;
+  font-size: 25px;
+  display: flex;
+}
+
+.main > div > a > p > span {
+  display: block;
+  color: #dd2f44;
+  background-color: white;
+  padding: 0 10px;
+  transform: rotate(-8deg);
+  border-radius: 5px;
+}
+
+.main > div > nav > a {
+  color: white;
+  margin-left: 10px;
+}
+
+.main > div > nav > a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
